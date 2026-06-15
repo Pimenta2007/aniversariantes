@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(32, 41, 124);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100PX;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40PX;
+}
+
+#dados{
+    width: 100%;
+}
+
+h1#titulo{
+    color: white;
+    font-size: 20px;
+}
+
+#dados{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    height: 700px;
+}
+
+#cia1{
+    h1#titulo{
+    background-color: rgb(218, 185, 0);
+    padding: 20px;
+    margin: 0px;
+    }
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    border-radius: 20px;
+}
+#cia2{
+    h1#titulo{
+    background-color: rgb(34, 153, 18);
+    padding: 20px;
+    margin: 0px;
+    }
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    border-radius: 20px;
+}
+#cia3{
+    h1#titulo{
+    background-color: rgb(14, 137, 168);
+    padding: 20px;
+    margin: 0px;
+    }
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    border-radius: 20px;
+}
+#cia4{
+    h1#titulo{
+    background-color: rgb(158, 16, 16);
+    padding: 20px;
+    margin: 0px;
+    }
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    border-radius: 20px;
+}
+
